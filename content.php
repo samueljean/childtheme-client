@@ -65,38 +65,6 @@
 		<?php edit_post_link( __( 'Edit', '_tk' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->
-<article>
- <body class"home page page-id-16 page-template-default logged-in admin-bar custom-background customize-support">
-   <div class="jumbotron">
-     <h1>Hello, world!</h1>
-     <p>...</p>
-     <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-   </div>
-
-
-
-
-
-
- </body>
-
-
-</article>
-
-
-
-<article id="post-16" class="post-16 page type-page status-publish hentry">
-	<header>
-		<h1 class="page-title">Home</h1>
-	</header><!-- .entry-header -->
-
-	<div class="entry-content">
-		<div class="entry-content-thumbnail">
-					</div>
-		<h1>hello world</h1>
-			</div><!-- .entry-content -->
-	<footer class="entry-meta"><span class="edit-link"><a class="post-edit-link" href="http://localhost:8888/client/wp-admin/post.php?post=16&amp;action=edit">Edit</a></span></footer></article>
-
 
 
 
