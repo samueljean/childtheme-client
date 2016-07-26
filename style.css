@@ -1,0 +1,38 @@
+/*
+ Theme Name:   Child theme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+.navbar-brand{
+	min-width: 132px;
+	min-height: 80px;
+	position: relative;
+    display: block;
+    padding: 25px 20px;
+}
+
+.navbar {
+    border-radius: 0px;
+	border: none;
+	margin-bottom: 0px;
+	position: fixed-top;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 25px 20px;
+}
+body{
+	
+}
+.jumbotron{
+
+}
