@@ -24,6 +24,29 @@
 <body <?php body_class(); ?>>
 	<?php do_action( 'before' ); ?>
 
+	<header id="masthead" class="site-header" role="banner">
+	<?php // substitute the class "container-fluid" below if you want a wider content area ?>
+		<div class="container">
+			<div class="row">
+				<div class="site-header-inner col-lg-12 ">
+
+					<?php $header_image = get_header_image();
+					if ( ! empty( $header_image ) ) { ?>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+							<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
+						</a>
+					<?php } // end if ( ! empty( $header_image ) ) ?>
+
+
+					<div class="site-branding">
+						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+						<p class="site-description lead"><?php bloginfo( 'description' ); ?></p>
+					</div>
+
+				</div>
+			</div>
+		</div><!-- .container -->
+	</header><!-- #masthead -->
 
 
 <nav class="site-navigation">
@@ -31,7 +54,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="site-navigation-inner ">
-				<div class="navbar navbar-default">
+				<div class="navbar navbar-default navbar-fixed-top">
 					<div class="navbar-header">
 						<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -70,7 +93,7 @@
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
 	<div class="container">
 		<div class="row">
-			<div id="content" class="main-content-inner col-sm-12 col-md-8">
+			<div id="content" class="main-content-inner col-lg-12 ">
 
 			</div>
 
